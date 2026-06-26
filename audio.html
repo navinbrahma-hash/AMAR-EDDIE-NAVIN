@@ -1,0 +1,186 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Audio - Horticultural and Medicinal Plants</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#eef7ee;
+    color:#333;
+}
+
+header{
+    background:#2e8b57;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    font-size:40px;
+}
+
+nav{
+    background:#1f5f3a;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:15px 25px;
+    font-size:18px;
+    transition:.3s;
+}
+
+nav a:hover{
+    background:#3cb371;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:60px 0;
+}
+
+.container h2{
+    text-align:center;
+    font-size:38px;
+    color:#2e8b57;
+    margin-bottom:20px;
+}
+
+.container p{
+    text-align:center;
+    font-size:18px;
+    margin-bottom:40px;
+    line-height:1.7;
+}
+
+.audio-card{
+    width:80%;
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+.audio-card h3{
+    color:#2e8b57;
+    font-size:30px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.audio-card p{
+    text-align:center;
+    font-size:18px;
+    margin-bottom:30px;
+    line-height:1.8;
+}
+
+audio{
+    width:100%;
+    height:55px;
+}
+
+footer{
+    background:#1f5f3a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:60px;
+}
+
+@media(max-width:768px){
+
+    nav a{
+        width:100%;
+        text-align:center;
+    }
+
+    .audio-card{
+        width:95%;
+        padding:25px;
+    }
+
+    .container h2{
+        font-size:30px;
+    }
+
+    .audio-card h3{
+        font-size:24px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Audio Library</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="video.html">Video</a>
+    <a href="audio.html">Audio</a>
+</nav>
+
+<div class="container">
+
+    <h2>Listen & Learn</h2>
+
+    <p>
+        Listen to an educational audio recording about the horticultural and
+        medicinal plants of Northeast India. This recording explains the
+        importance of biodiversity, major horticultural crops, medicinal plants,
+        and their role in agriculture, healthcare, and the economy of the region.
+    </p>
+
+    <div class="audio-card">
+
+        <h3>Horticultural and Medicinal Plants of Northeast India</h3>
+
+        <p>
+            Click the play button below to listen to the audio presentation.
+            Replace <strong>audio/audio1.mp3</strong> with your own recording if
+            required.
+        </p>
+
+        <audio controls>
+            <source src="1.mpeg" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>COLLEGE OF HORTICULTURE, CAU (I), THENZAWL MIZORAM</p>
+</footer>
+
+</body>
+</html>

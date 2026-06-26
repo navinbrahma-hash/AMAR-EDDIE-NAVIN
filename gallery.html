@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery - Horticultural and Medicinal Plants</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#eef7ee;
+}
+
+/* HEADER */
+header{
+background:#2e8b57;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* NAV */
+nav{
+background:#1f5f3a;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+padding:15px 25px;
+font-size:18px;
+transition:0.3s;
+}
+
+nav a:hover{
+background:#3cb371;
+}
+
+nav a.active{
+background:#4CAF50;
+border-radius:5px;
+}
+
+/* TITLE */
+h2{
+text-align:center;
+margin:30px 0 10px;
+color:#2e8b57;
+}
+
+/* GIF */
+.gif-banner{
+display:flex;
+justify-content:center;
+margin:20px 0;
+}
+
+.gif-banner img{
+width:80%;
+max-width:600px;
+border-radius:12px;
+}
+
+/* TEXT */
+.gallery-text{
+text-align:center;
+margin-bottom:20px;
+font-size:18px;
+color:#444;
+}
+
+/* GRID */
+.gallery{
+width:90%;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+gap:20px;
+padding-bottom:40px;
+}
+
+/* CARD */
+.card{
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+/* IMAGE */
+.plant-image{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+/* CONTENT */
+.card-content{
+padding:12px;
+}
+
+.card-content h3{
+color:#2e8b57;
+margin-bottom:5px;
+}
+
+.botanical{
+font-style:italic;
+color:#666;
+margin-bottom:5px;
+font-size:14px;
+}
+
+.card-content p{
+font-size:14px;
+color:#444;
+}
+
+footer{
+background:#1f5f3a;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Horticultural & Medicinal Plants of Northeast India</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="gallery.html" class="active">Gallery</a>
+<a href="video.html">Video</a>
+<a href="audio.html">Audio</a>
+</nav>
+
+<h2>🌿 Horticultural & Medicinal Plant Gallery 🌿</h2>
+
+
+</div>
+
+<p class="gallery-text">
+Discover the beauty and diversity of horticultural and medicinal plants found across Northeast India.
+</p>
+
+<div class="gallery">
+
+    <!-- 🌿 HORTICULTURAL PLANTS -->
+
+    <div class="card">
+        <img src="8.jpeg" class="plant-image">
+        <div class="card-content">
+            <h3>Pineapple</h3>
+            <p class="botanical">Ananas comosus</p>
+            <p>Important horticultural fruit crop of Northeast India.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="1.jpeg" class="plant-image">
+        <div class="card-content">
+            <h3>Orange</h3>
+            <p class="botanical">Citrus reticulata</p>
+            <p>Popular citrus fruit grown in Meghalaya.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="2.jpeg" class="plant-image">
+        <div class="card-content">
+            <h3>Banana</h3>
+            <p class="botanical">Musa spp.</p>
+            <p>Widely cultivated fruit crop in Northeast India.</p>
+        </div>
+    </div>
+
+    <!-- 🌱 MEDICINAL PLANTS -->
+
+    <div class="card">
+        <img src="6.jpeg" class="plant-image">
+        <div class="card-content">
+            <h3>Ginger</h3>
+            <p class="botanical">Zingiber officinale</p>
+            <p>Medicinal spice used for digestion and immunity.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="4.jpeg" class="plant-image">
+        <div class="card-content">
+            <h3>Turmeric</h3>
+            <p class="botanical">Curcuma longa</p>
+            <p>Known for anti-inflammatory and healing properties.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="7.jpeg" class="plant-image">
+        <div class="card-content">
+            <h3>Aloe Vera</h3>
+            <p class="botanical">Aloe barbadensis</p>
+            <p>Used for skin care, burns, and medicinal treatments.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+<p>COLLEGE OF HORTICULTURE, CAU (I), THENZAWL MIZORAM</p>
+</footer>
+
+</body>
+</html>
+
+   
